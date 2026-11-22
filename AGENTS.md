@@ -115,7 +115,7 @@ An email is a dictionary with string values:
 
 ## Git and GitHub
 
-- Repo: `Mailroom` on the owner's GitHub account (private).
+- Repo: `Mailroom` on the owner's GitHub account (public).
 - Commit small, with a plain message saying what changed and why.
 - Run `uv run pyright` before every commit.
 - Never commit `.venv/`.
