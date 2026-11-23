@@ -4,8 +4,8 @@ Everything an AI coding agent needs to know before touching this project.
 
 ## What this project is
 
-**Mailroom** is a small email-triage tool written in Python. It sorts a pile of emails
-(sender, subject, priority) into what is urgent and what can wait.
+**Mailroom** is a small project written in Python. What it will do is still undecided: the
+owner has not chosen yet, so agents must not assume a purpose.
 
 It is also a **learning project**. The owner is learning programming fundamentals by building
 it, following the book *The AI Agent Factory*, Chapter 13 "Programming Fundamentals":
@@ -91,27 +91,6 @@ MailRoom/
   .python-version  pinned Python version
   uv.lock          locked dependency versions (committed)
 ```
-
-## Data model
-
-An email is a dictionary with string values:
-
-```python
-{"sender": "ali@example.com", "subject": "Invoice 204 is overdue", "priority": "high"}
-```
-
-`priority` is one of `"high"`, `"normal"`, `"low"`. The inbox is a `list[dict[str, str]]`.
-
-## Roadmap (ideas, in order; each step is gated by the lessons covered)
-
-1. Inbox as a list of dicts, `is_urgent()`, list comprehension filter. *(starter in `main.py`)*
-2. Count emails per priority using a dictionary.
-3. Sort the inbox by priority with `sorted(..., key=lambda ...)`.
-4. Handle missing fields safely with `.get(key, default)` and `or`.
-5. Add `assert` checks for each function.
-6. After 13.8: read emails from a text file.
-7. After 13.9: add received dates and sort by date.
-8. After 13.11: write tests first for each new function.
 
 ## Git and GitHub
 
