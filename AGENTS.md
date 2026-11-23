@@ -16,7 +16,8 @@ is a failure.
 
 ## Learner progress (update this as lessons are covered)
 
-**Covered so far: Chapter 13, lessons 13.1 to 13.7.**
+**Covered so far: Chapter 13, lessons 13.1 to 13.7, plus the first parts of 13.8 and 13.11
+that the learner has already used in this project (listed below).**
 
 | Lesson | Concepts the learner knows |
 |---|---|
@@ -27,12 +28,14 @@ is a failure.
 | 13.5 | `and`, `or`, `not`, `x = x or "default"`, empty values are false, `while`, `+=` |
 | 13.6 | `def`, typed parameters, `return`, `-> type`, pure functions, `assert` with a message |
 | 13.7 | lists, `len()`, dictionaries, `d["key"]`, `.get(key, default)`, dicts as records, `KeyError`, sorting with `key=`, `lambda`, `reverse=True` |
+| 13.8 (started) | `open("path")`, `file.read()`, `file.close()`, a file path relative to the project folder, `open` gives a connection (`file`) and `.read()` gives the contents (`text: str`), line breaks are `\n` characters stored in the file, `.splitlines()` |
+| 13.11 (started) | tests first: write the test, watch it fail, then write the code; `from mailroom import name`; each test keeps the output (`actual`) apart from the expected behaviour (`expected`) and compares them with `assert`; functions live in `mailroom.py`, checks live in `test.py` |
+| Learned along the way | defining a function vs calling it; indented lines under `def` run only when the function is called, and not at all after `return`; a parameter is a blank, the argument fills it; `return` hands a value back and `print` only shows it; `-> None` means nothing is returned; `"a" in line` checks whether one string is inside another; `NameError`; `RecursionError` (a function calling itself forever) |
 
-**Not yet covered (still new to the learner):** reading text from files (13.8), dates (13.9),
-reading error messages in depth (13.10), tests-first / the TDG loop (13.11), judgment (13.12),
-and everything in later chapters: modules and `import`, classes, `try` / `except`, f-strings,
-`with open(...)`, `if __name__ == "__main__":`, type aliases, and anything else not in the table
-above.
+**Not yet covered (still new to the learner):** dates (13.9), reading error messages in depth
+(13.10), the rest of the tests-first / TDG loop (13.11), judgment (13.12), and everything in
+later chapters: classes, `try` / `except`, f-strings, `with open(...)`,
+`if __name__ == "__main__":`, type aliases, and anything else not in the table above.
 
 ## Hard rules for agents
 
